@@ -4,7 +4,6 @@ import { AgentPanel } from "@agilecrm/500ux-core";
 
 
 export default function AgentWidget() {
-  console.log("CLIENT VALUE:", process.env.NEXT_PUBLIC_AGENT_APP_ID);
   return (
     <AgentPanel
       title="Weather Agent"
