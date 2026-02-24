@@ -9,7 +9,7 @@ const { NEXT_PUBLIC_AGENT_APP_ID, NEXT_PUBLIC_AGENT_JOURNEY_ID } = process.env
 console.log(NEXT_PUBLIC_AGENT_APP_ID, NEXT_PUBLIC_AGENT_JOURNEY_ID)
 
 export default function AgentWidget() {
-  <p>{process.env.NEXT_PUBLIC_AGENT_APP_ID}</p>
+  console.log("CLIENT VALUE:", process.env.NEXT_PUBLIC_AGENT_APP_ID);
   return (
     <AgentPanel
       title="Weather Agent"
