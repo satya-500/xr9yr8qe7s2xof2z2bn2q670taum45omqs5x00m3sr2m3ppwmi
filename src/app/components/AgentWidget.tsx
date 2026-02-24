@@ -3,11 +3,6 @@
 import { AgentPanel } from "@agilecrm/500ux-core";
 
 
-
-const { NEXT_PUBLIC_AGENT_APP_ID, NEXT_PUBLIC_AGENT_JOURNEY_ID } = process.env
-
-console.log(NEXT_PUBLIC_AGENT_APP_ID, NEXT_PUBLIC_AGENT_JOURNEY_ID)
-
 export default function AgentWidget() {
   console.log("CLIENT VALUE:", process.env.NEXT_PUBLIC_AGENT_APP_ID);
   return (
@@ -20,8 +15,8 @@ export default function AgentWidget() {
         </div>
       }
       context={{
-        appId: NEXT_PUBLIC_AGENT_APP_ID || "",
-        journeyId: NEXT_PUBLIC_AGENT_JOURNEY_ID || "",
+        appId: process.env.NEXT_PUBLIC_AGENT_APP_ID || "",
+        journeyId: process.env.NEXT_PUBLIC_AGENT_JOURNEY_ID || "",
       }}
       placeholder="Ask the agent anything..."
       appLabel="Customer Portal"
