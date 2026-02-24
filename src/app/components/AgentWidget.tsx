@@ -2,6 +2,8 @@
 
 import { AgentPanel } from "@agilecrm/500ux-core";
 
+const { NEXT_PUBLIC_AGENT_APP_ID, NEXT_PUBLIC_AGENT_JOURNEY_ID } = process.env
+
 export default function AgentWidget() {
   return (
     <AgentPanel
@@ -13,8 +15,8 @@ export default function AgentWidget() {
         </div>
       }
       context={{
-        appId: process.env.NEXT_PUBLIC_AGENT_APP_ID || "",
-        journeyId: process.env.NEXT_PUBLIC_AGENT_JOURNEY_ID || "",
+        appId: NEXT_PUBLIC_AGENT_APP_ID || "",
+        journeyId: NEXT_PUBLIC_AGENT_JOURNEY_ID || "",
       }}
       placeholder="Ask the agent anything..."
       appLabel="Customer Portal"
