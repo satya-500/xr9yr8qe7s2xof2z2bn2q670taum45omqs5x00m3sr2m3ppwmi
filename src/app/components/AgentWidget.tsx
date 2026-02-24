@@ -2,7 +2,11 @@
 
 import { AgentPanel } from "@agilecrm/500ux-core";
 
+
+
 const { NEXT_PUBLIC_AGENT_APP_ID, NEXT_PUBLIC_AGENT_JOURNEY_ID } = process.env
+
+console.log(NEXT_PUBLIC_AGENT_APP_ID, NEXT_PUBLIC_AGENT_JOURNEY_ID)
 
 export default function AgentWidget() {
   return (
