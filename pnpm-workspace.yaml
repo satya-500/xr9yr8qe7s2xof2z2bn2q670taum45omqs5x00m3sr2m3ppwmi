@@ -1,0 +1,5 @@
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
+# overrides:
+#   '@agilecrm/500ux-core': link:../500ux-core
