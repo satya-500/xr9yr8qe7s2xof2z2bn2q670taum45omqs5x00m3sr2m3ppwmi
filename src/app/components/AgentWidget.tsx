@@ -13,8 +13,8 @@ export default function AgentWidget() {
         </div>
       }
       context={{
-        appId: process.env.NEXT_AGENT_APP_ID || "",
-        journeyId: process.env.NEXT_AGENT_JOURNEY_ID || "",
+        appId: process.env.NEXT_PUBLIC_AGENT_APP_ID || "",
+        journeyId: process.env.NEXT_PUBLIC_AGENT_JOURNEY_ID || "",
       }}
       placeholder="Ask the agent anything..."
       appLabel="Customer Portal"
