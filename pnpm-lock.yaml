@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@agilecrm/500ux-core':
-        specifier: 0.1.5
-        version: 0.1.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        specifier: 0.1.9
+        version: 0.1.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       next:
         specifier: 16.1.6
         version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -48,8 +48,8 @@ importers:
 
 packages:
 
-  '@agilecrm/500ux-core@0.1.5':
-    resolution: {integrity: sha512-Ots7kR3uPGn/RgB3zFnbpFeYgojdlK7Xk+blA8hsaOIZEr8My3CJvzjKGKHgeM4RRCNadBELQNQMwKmuiDL7eA==, tarball: https://npm.pkg.github.com/download/@agilecrm/500ux-core/0.1.5/c3513e8d13fee3f5b3d9c04568231835b2f19faa}
+  '@agilecrm/500ux-core@0.1.9':
+    resolution: {integrity: sha512-8pKK8SZLpQ2S6sQKt5cJIb54Wx1hvkyxchH4HoRAFQUOTPn946pd8TO5gXE+I4cIt1MUS18R/elILhylr24wZw==, tarball: https://npm.pkg.github.com/download/@agilecrm/500ux-core/0.1.9/3e9c5288713ba1761de477b8e1d17fe1a9642699}
     peerDependencies:
       react: 19.2.3
       react-dom: 19.2.3
@@ -1966,7 +1966,7 @@ packages:
 
 snapshots:
 
-  '@agilecrm/500ux-core@0.1.5(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+  '@agilecrm/500ux-core@0.1.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
